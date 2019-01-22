@@ -1,0 +1,5 @@
+include ':app'
+include ':react-native-twilio-programmable-voice'
+project(':react-native-twilio-programmable-voice').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-twilio-programmable-voice/android')
+include ':react-native-twilio-voice'
+project(':react-native-twilio-voice').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-twilio-voice/android')
